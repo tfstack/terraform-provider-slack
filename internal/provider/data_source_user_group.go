@@ -207,19 +207,19 @@ func (d *dataSourceUserGroup) Read(ctx context.Context, req datasource.ReadReque
 func (d *dataSourceUserGroup) Schema(_ context.Context, _ datasource.SchemaRequest, resp *datasource.SchemaResponse) {
 	resp.Schema = schema.Schema{
 		MarkdownDescription: `
-		The **slack_user_group** data source retrieves information about a specific user group within Slack. It allows users to fetch details such as user group members and attributes.
+The **slack_user_group** data source retrieves information about a specific user group within Slack. It allows users to fetch details such as user group members and attributes.
 
-		You can customize the data retrieval by specifying various optional parameters:
-		- **Include users**: Choose whether to include user details within the group.
-		- **Include count**: Specify whether to return the count of users in the group.
-		- **Include disabled groups**: Optionally retrieve disabled user groups.
-		- **Team ID**: Filter groups by team ID for multi-team Slack organizations.
-		
-		This flexibility enables targeted queries based on your specific needs.
-		
-		**Required scopes**
-		
-		- User tokens: user groups:read
+You can customize the data retrieval by specifying various optional parameters:
+- **Include users**: Choose whether to include user details within the group.
+- **Include count**: Specify whether to return the count of users in the group.
+- **Include disabled groups**: Optionally retrieve disabled user groups.
+- **Team ID**: Filter groups by team ID for multi-team Slack organizations.
+
+This flexibility enables targeted queries based on your specific needs.
+
+**Required scopes**
+
+- User tokens: user groups:read
 		`,
 		Attributes: map[string]schema.Attribute{
 			"include_count_filter": schema.BoolAttribute{

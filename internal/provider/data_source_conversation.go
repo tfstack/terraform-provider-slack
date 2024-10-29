@@ -218,13 +218,13 @@ func (d *dataSourceConversation) Read(ctx context.Context, req datasource.ReadRe
 func (d *dataSourceConversation) Schema(_ context.Context, _ datasource.SchemaRequest, resp *datasource.SchemaResponse) {
 	resp.Schema = schema.Schema{
 		MarkdownDescription: `
-		The **slack_conversation** data source retrieves details of a single conversation (channel) in a Slack workspace.
+The **slack_conversation** data source retrieves details of a single conversation (channel) in a Slack workspace.
 
-		You can customize the data retrieval using optional parameters such as excluding archived conversations, filtering by conversation types, and specifying the conversation name.
+You can customize the data retrieval using optional parameters such as excluding archived conversations, filtering by conversation types, and specifying the conversation name.
 
-		**Required scopes**
-		
-		- User tokens: channels:read, groups:read, im:read, mpim:read
+**Required scopes**
+
+- User tokens: channels:read, groups:read, im:read, mpim:read
 		`,
 		Attributes: map[string]schema.Attribute{
 			"name": schema.StringAttribute{
@@ -237,19 +237,19 @@ func (d *dataSourceConversation) Schema(_ context.Context, _ datasource.SchemaRe
 			},
 			"query_limit": schema.Int64Attribute{
 				MarkdownDescription: `
-				Maximum number of items to query.
+Maximum number of items to query.
 
-				This limit controls how many items are returned in a single query. Setting a higher limit may increase the response time, while a lower limit can help optimize performance and reduce resource usage.
+This limit controls how many items are returned in a single query. Setting a higher limit may increase the response time, while a lower limit can help optimize performance and reduce resource usage.
 
-				**Optional:** If not specified, the default limit is 1000.
+**Optional:** If not specified, the default limit is 1000.
 				`,
 				Optional: true,
 			},
 			"types": schema.ListAttribute{
 				MarkdownDescription: `
-					Types of conversation to include (e.g., 'public_channel', 'private_channel')."
+Types of conversation to include (e.g., 'public_channel', 'private_channel')."
 
-					Default: 'public_channel'
+Default: 'public_channel'
 				`,
 				ElementType: types.StringType,
 				Optional:    true,

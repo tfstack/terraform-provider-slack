@@ -38,13 +38,13 @@ func (d *dataSourceUserStatus) Metadata(_ context.Context, req datasource.Metada
 func (d *dataSourceUserStatus) Schema(ctx context.Context, req datasource.SchemaRequest, resp *datasource.SchemaResponse) {
 	resp.Schema = schema.Schema{
 		MarkdownDescription: `
-		The **slack_user_status** resource manages a specific Slack user status by their unique user ID. It retrieves and manages user status to ensure consistency in user information across your infrastructure.
+The **slack_user_status** resource manages a specific Slack user status by their unique user ID. It retrieves and manages user status to ensure consistency in user information across your infrastructure.
 
-		This resource interacts directly with the Slack API to fetch user details based on the specified user ID.
+This resource interacts directly with the Slack API to fetch user details based on the specified user ID.
 
-		**Required scopes**
-		
-		User tokens: users:read
+**Required scopes**
+
+User tokens: users:read
 		`,
 		Attributes: map[string]schema.Attribute{
 			"id": schema.StringAttribute{

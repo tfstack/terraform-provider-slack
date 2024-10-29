@@ -123,13 +123,13 @@ func (r *resourceSlackUserRealName) Read(ctx context.Context, req resource.ReadR
 func (r *resourceSlackUserRealName) Schema(ctx context.Context, req resource.SchemaRequest, resp *resource.SchemaResponse) {
 	resp.Schema = schema.Schema{
 		MarkdownDescription: `
-			The **slack_user_real_name** manage a Slack user real name.
+The **slack_user_real_name** manage a Slack user real name.
 
-			This resource directly interacts with the Slack API to fetch user details based on the specified user ID.
+This resource directly interacts with the Slack API to fetch user details based on the specified user ID.
 
-			**Required scopes**
+**Required scopes**
 
-			User tokens: users:read, users.profile:write
+User tokens: users:read, users.profile:write
 			`,
 		Attributes: map[string]schema.Attribute{
 			"id": schema.StringAttribute{
