@@ -288,9 +288,9 @@ This resource interacts with the Slack API to add or manage users within a speci
 
 **Note:** Slack does not allow a user group to have an empty list of members, so there must always be at least one user in the group.
 
-**Required API scopes:**
+**Required scopes**
 
-- User tokens: usergroups:write
+User tokens: usergroups:write
 `,
 		Attributes: map[string]schema.Attribute{
 			"usergroup": schema.StringAttribute{

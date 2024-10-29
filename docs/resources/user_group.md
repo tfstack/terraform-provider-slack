@@ -4,7 +4,7 @@ page_title: "slack_user_group Resource - terraform-provider-slack"
 subcategory: ""
 description: |-
   The slack_user_group resource manages Slack user groups.
-  This resource directly interacts with the Slack API to fetch user details based on the specified user ID.
+  This resource interacts with the Slack API to fetch user details based on the specified user ID.
   Existing Group: If the group name matches, it updates the existing group.New Group: If no group matches the name, it creates a new group.
   Required scopes
   User tokens: users:read, usergroups:write, team:read
@@ -14,7 +14,7 @@ description: |-
 
 The **slack_user_group** resource manages Slack user groups.
 
-This resource directly interacts with the Slack API to fetch user details based on the specified user ID.
+This resource interacts with the Slack API to fetch user details based on the specified user ID.
 
 - **Existing Group**: If the group name matches, it updates the existing group.
 - **New Group**: If no group matches the name, it creates a new group.

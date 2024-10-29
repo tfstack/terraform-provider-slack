@@ -125,7 +125,7 @@ func (r *resourceSlackUserRealName) Schema(ctx context.Context, req resource.Sch
 		MarkdownDescription: `
 The **slack_user_real_name** manage a Slack user real name.
 
-This resource directly interacts with the Slack API to fetch user details based on the specified user ID.
+This resource interacts with the Slack API to fetch user details based on the specified user ID.
 
 **Required scopes**
 

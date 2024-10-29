@@ -40,6 +40,9 @@ func (p *slackProvider) Metadata(ctx context.Context, req provider.MetadataReque
 
 func (p *slackProvider) Schema(ctx context.Context, req provider.SchemaRequest, resp *provider.SchemaResponse) {
 	resp.Schema = schema.Schema{
+		MarkdownDescription: `
+The Slack provider enables interaction with Slack resources. Configure the provider with valid credentials to begin managing Slack resources through Terraform.
+`,
 		Attributes: map[string]schema.Attribute{
 			"api_token": schema.StringAttribute{
 				MarkdownDescription: "The Slack Web API token used for authentication",

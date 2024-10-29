@@ -40,7 +40,7 @@ func (d *dataSourceUser) Schema(ctx context.Context, req datasource.SchemaReques
 		MarkdownDescription: `
 The **slack_user** resource manages a specific Slack user by their unique user ID. It allows for the retrieval and management of user attributes, ensuring consistency in user information across your infrastructure.
 
-This resource directly interacts with the Slack API to fetch user details based on the specified user ID.
+This resource interacts with the Slack API to fetch user details based on the specified user ID.
 
 **Required scopes**
 

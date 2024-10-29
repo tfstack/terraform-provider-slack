@@ -3,24 +3,21 @@
 page_title: "slack_user_profile Data Source - terraform-provider-slack"
 subcategory: ""
 description: |-
-  The **slack_user_profile** resource manages a specific Slack user profile by their unique user ID. It retrieves and manages user attributes to ensure consistency in user information across your infrastructure.
-  
-  		This resource directly interacts with the Slack API to fetch user details based on the specified user ID.
-  
-  		**Required scopes**
-  
-  		User tokens: users:read
+  The slack_user_profile resource manages a specific Slack user profile by their unique user ID. It retrieves and manages user attributes to ensure consistency in user information across your infrastructure.
+  This resource interacts with the Slack API to fetch user details based on the specified user ID.
+  Required scopes
+  User tokens: users:read
 ---
 
 # slack_user_profile (Data Source)
 
 The **slack_user_profile** resource manages a specific Slack user profile by their unique user ID. It retrieves and manages user attributes to ensure consistency in user information across your infrastructure.
 
-			This resource directly interacts with the Slack API to fetch user details based on the specified user ID.
+This resource interacts with the Slack API to fetch user details based on the specified user ID.
 
-			**Required scopes**
+**Required scopes**
 
-			User tokens: users:read
+User tokens: users:read
 
 
 

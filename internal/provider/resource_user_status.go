@@ -149,7 +149,7 @@ func (r *resourceSlackUserStatus) Schema(ctx context.Context, req resource.Schem
 		MarkdownDescription: `
 The **slack_user_status** manage a Slack user status details.
 
-This resource directly interacts with the Slack API to fetch user details based on the specified user ID.
+This resource interacts with the Slack API to fetch user details based on the specified user ID.
 
 **Required scopes**
 
