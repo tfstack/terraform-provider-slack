@@ -3,12 +3,12 @@
 page_title: "slack Provider"
 subcategory: ""
 description: |-
-  
+  The Slack provider enables interaction with Slack resources. Configure the provider with valid credentials to begin managing Slack resources through Terraform.
 ---
 
 # slack Provider
 
-
+The Slack provider enables interaction with Slack resources. Configure the provider with valid credentials to begin managing Slack resources through Terraform.
 
 ## Example Usage
 

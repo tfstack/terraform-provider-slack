@@ -235,7 +235,7 @@ You can customize the data retrieval using optional parameters such as excluding
 
 **Required scopes**
 
-- User tokens: channels:read, groups:read, im:read, mpim:read
+User tokens: channels:read, groups:read, im:read, mpim:read
 `,
 		Attributes: map[string]schema.Attribute{
 			"exclude_archived": schema.BoolAttribute{

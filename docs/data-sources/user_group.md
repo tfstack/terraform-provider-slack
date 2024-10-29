@@ -3,36 +3,29 @@
 page_title: "slack_user_group Data Source - terraform-provider-slack"
 subcategory: ""
 description: |-
-  The **slack_user_group** data source retrieves information about a specific user group within Slack. It allows users to fetch details such as user group members and attributes.
-  
-  	You can customize the data retrieval by specifying various optional parameters:
-  	- **Include users**: Choose whether to include user details within the group.
-  	- **Include count**: Specify whether to return the count of users in the group.
-  	- **Include disabled groups**: Optionally retrieve disabled user groups.
-  	- **Team ID**: Filter groups by team ID for multi-team Slack organizations.
-  	
-  	This flexibility enables targeted queries based on your specific needs.
-  	
-  	**Required scopes**
-  	
-  	- User tokens: user groups:read
+  The slack_user_group data source retrieves information about a specific user group within Slack. It allows users to fetch details such as user group members and attributes.
+  You can customize the data retrieval by specifying various optional parameters:
+  Include users: Choose whether to include user details within the group.Include count: Specify whether to return the count of users in the group.Include disabled groups: Optionally retrieve disabled user groups.Team ID: Filter groups by team ID for multi-team Slack organizations.
+  This flexibility enables targeted queries based on your specific needs.
+  Required scopes
+  User tokens: user groups:read
 ---
 
 # slack_user_group (Data Source)
 
 The **slack_user_group** data source retrieves information about a specific user group within Slack. It allows users to fetch details such as user group members and attributes.
 
-		You can customize the data retrieval by specifying various optional parameters:
-		- **Include users**: Choose whether to include user details within the group.
-		- **Include count**: Specify whether to return the count of users in the group.
-		- **Include disabled groups**: Optionally retrieve disabled user groups.
-		- **Team ID**: Filter groups by team ID for multi-team Slack organizations.
-		
-		This flexibility enables targeted queries based on your specific needs.
-		
-		**Required scopes**
-		
-		- User tokens: user groups:read
+You can customize the data retrieval by specifying various optional parameters:
+- **Include users**: Choose whether to include user details within the group.
+- **Include count**: Specify whether to return the count of users in the group.
+- **Include disabled groups**: Optionally retrieve disabled user groups.
+- **Team ID**: Filter groups by team ID for multi-team Slack organizations.
+
+This flexibility enables targeted queries based on your specific needs.
+
+**Required scopes**
+
+- User tokens: user groups:read
 
 
 

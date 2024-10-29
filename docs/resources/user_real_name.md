@@ -3,24 +3,21 @@
 page_title: "slack_user_real_name Resource - terraform-provider-slack"
 subcategory: ""
 description: |-
-  The **slack_user_real_name** manage a Slack user real name.
-  
-  		This resource directly interacts with the Slack API to fetch user details based on the specified user ID.
-  
-  		**Required scopes**
-  
-  		User tokens: users:read, users.profile:write
+  The slack_user_real_name manage a Slack user real name.
+  This resource interacts with the Slack API to fetch user details based on the specified user ID.
+  Required scopes
+  User tokens: users:read, users.profile:write
 ---
 
 # slack_user_real_name (Resource)
 
 The **slack_user_real_name** manage a Slack user real name.
 
-			This resource directly interacts with the Slack API to fetch user details based on the specified user ID.
+This resource interacts with the Slack API to fetch user details based on the specified user ID.
 
-			**Required scopes**
+**Required scopes**
 
-			User tokens: users:read, users.profile:write
+User tokens: users:read, users.profile:write
 
 
 

@@ -40,7 +40,7 @@ func (d *dataSourceUserStatus) Schema(ctx context.Context, req datasource.Schema
 		MarkdownDescription: `
 The **slack_user_status** resource manages a specific Slack user status by their unique user ID. It retrieves and manages user status to ensure consistency in user information across your infrastructure.
 
-This resource interacts directly with the Slack API to fetch user details based on the specified user ID.
+This resource interacts with the Slack API to fetch user details based on the specified user ID.
 
 **Required scopes**
 
