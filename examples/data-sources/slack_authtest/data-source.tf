@@ -1,4 +1,3 @@
-# test slack token auth
 data "slack_authtest" "example" {}
 
 output "example" {
