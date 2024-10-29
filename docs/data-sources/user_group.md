@@ -3,7 +3,7 @@
 page_title: "slack_user_group Data Source - terraform-provider-slack"
 subcategory: ""
 description: |-
-  The `slack_user_group` data source retrieves information about a specific user group within Slack. It allows users to fetch details such as user group members and attributes.
+  The **slack_user_group** data source retrieves information about a specific user group within Slack. It allows users to fetch details such as user group members and attributes.
   
   	You can customize the data retrieval by specifying various optional parameters:
   	- **Include users**: Choose whether to include user details within the group.
@@ -20,7 +20,7 @@ description: |-
 
 # slack_user_group (Data Source)
 
-The `slack_user_group` data source retrieves information about a specific user group within Slack. It allows users to fetch details such as user group members and attributes.
+The **slack_user_group** data source retrieves information about a specific user group within Slack. It allows users to fetch details such as user group members and attributes.
 
 		You can customize the data retrieval by specifying various optional parameters:
 		- **Include users**: Choose whether to include user details within the group.

@@ -3,7 +3,7 @@
 page_title: "slack_user_status Data Source - terraform-provider-slack"
 subcategory: ""
 description: |-
-  The 'slack_user_status' resource manages a specific Slack user status by their unique user ID. It retrieves and manages user status to ensure consistency in user information across your infrastructure.
+  The **slack_user_status** resource manages a specific Slack user status by their unique user ID. It retrieves and manages user status to ensure consistency in user information across your infrastructure.
   
   	This resource interacts directly with the Slack API to fetch user details based on the specified user ID.
   
@@ -14,7 +14,7 @@ description: |-
 
 # slack_user_status (Data Source)
 
-The 'slack_user_status' resource manages a specific Slack user status by their unique user ID. It retrieves and manages user status to ensure consistency in user information across your infrastructure.
+The **slack_user_status** resource manages a specific Slack user status by their unique user ID. It retrieves and manages user status to ensure consistency in user information across your infrastructure.
 
 		This resource interacts directly with the Slack API to fetch user details based on the specified user ID.
 

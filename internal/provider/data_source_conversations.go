@@ -229,7 +229,7 @@ func (d *dataSourceConversations) Read(ctx context.Context, req datasource.ReadR
 func (d *dataSourceConversations) Schema(_ context.Context, _ datasource.SchemaRequest, resp *datasource.SchemaResponse) {
 	resp.Schema = schema.Schema{
 		MarkdownDescription: `
-		The ` + "`slack_conversations`" + ` data source retrieves a list of conversations (channels) in a Slack workspace.
+		The **slack_conversations** data source retrieves a list of conversations (channels) in a Slack workspace.
 
 		You can customize the data retrieval using optional parameters such as excluding archived conversations and filtering by conversation types.
 

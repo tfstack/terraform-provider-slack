@@ -3,7 +3,7 @@
 page_title: "slack_conversations Data Source - terraform-provider-slack"
 subcategory: ""
 description: |-
-  The `slack_conversations` data source retrieves a list of conversations (channels) in a Slack workspace.
+  The **slack_conversations** data source retrieves a list of conversations (channels) in a Slack workspace.
   
   	You can customize the data retrieval using optional parameters such as excluding archived conversations and filtering by conversation types.
   
@@ -14,7 +14,7 @@ description: |-
 
 # slack_conversations (Data Source)
 
-The `slack_conversations` data source retrieves a list of conversations (channels) in a Slack workspace.
+The **slack_conversations** data source retrieves a list of conversations (channels) in a Slack workspace.
 
 		You can customize the data retrieval using optional parameters such as excluding archived conversations and filtering by conversation types.
 

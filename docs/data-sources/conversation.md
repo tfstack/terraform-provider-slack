@@ -3,7 +3,7 @@
 page_title: "slack_conversation Data Source - terraform-provider-slack"
 subcategory: ""
 description: |-
-  The `slack_conversation` data source retrieves details of a single conversation (channel) in a Slack workspace.
+  The **slack_conversation** data source retrieves details of a single conversation (channel) in a Slack workspace.
   
   	You can customize the data retrieval using optional parameters such as excluding archived conversations, filtering by conversation types, and specifying the conversation name.
   
@@ -14,7 +14,7 @@ description: |-
 
 # slack_conversation (Data Source)
 
-The `slack_conversation` data source retrieves details of a single conversation (channel) in a Slack workspace.
+The **slack_conversation** data source retrieves details of a single conversation (channel) in a Slack workspace.
 
 		You can customize the data retrieval using optional parameters such as excluding archived conversations, filtering by conversation types, and specifying the conversation name.
 

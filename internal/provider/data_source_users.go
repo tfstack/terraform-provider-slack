@@ -39,7 +39,7 @@ func (d *dataSourceUsers) Metadata(_ context.Context, req datasource.MetadataReq
 func (d *dataSourceUsers) Schema(ctx context.Context, req datasource.SchemaRequest, resp *datasource.SchemaResponse) {
 	resp.Schema = schema.Schema{
 		MarkdownDescription: `
-		The ` + "`slack_users`" + ` resource manages multiple Slack users, allowing for the retrieval and management of user attributes. This resource interacts with the Slack API to fetch details for a list of users.
+		The **slack_users** resource manages multiple Slack users, allowing for the retrieval and management of user attributes. This resource interacts with the Slack API to fetch details for a list of users.
 		
 		You can optionally filter users based on their real name or email address, providing greater flexibility in retrieving specific user information.
 		

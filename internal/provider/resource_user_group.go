@@ -521,17 +521,17 @@ func (r *resourceSlackUserGroup) Read(ctx context.Context, req resource.ReadRequ
 func (r *resourceSlackUserGroup) Schema(ctx context.Context, req resource.SchemaRequest, resp *resource.SchemaResponse) {
 	resp.Schema = schema.Schema{
 		MarkdownDescription: `
-					The ` + "`slack_user_group`" + ` resource manages Slack user groups.
+The **slack_user_group** resource manages Slack user groups.
 
-					This resource directly interacts with the Slack API to fetch user details based on the specified user ID.
+This resource directly interacts with the Slack API to fetch user details based on the specified user ID.
 
-					- **Existing Group**: If the group name matches, it updates the existing group.
-					- **New Group**: If no group matches the name, it creates a new group.
+- **Existing Group**: If the group name matches, it updates the existing group.
+- **New Group**: If no group matches the name, it creates a new group.
 
-					**Required scopes**
+**Required scopes**
 
-					User tokens: users:read, usergroups:write, team:read
-			`,
+User tokens: users:read, usergroups:write, team:read
+`,
 		Attributes: map[string]schema.Attribute{
 			"auto_type": schema.StringAttribute{
 				MarkdownDescription: "An optional auto type for the user group.",

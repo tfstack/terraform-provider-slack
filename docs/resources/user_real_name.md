@@ -3,7 +3,7 @@
 page_title: "slack_user_real_name Resource - terraform-provider-slack"
 subcategory: ""
 description: |-
-  The `slack_user_real_name` manage a Slack user real name.
+  The **slack_user_real_name** manage a Slack user real name.
   
   		This resource directly interacts with the Slack API to fetch user details based on the specified user ID.
   
@@ -14,7 +14,7 @@ description: |-
 
 # slack_user_real_name (Resource)
 
-The `slack_user_real_name` manage a Slack user real name.
+The **slack_user_real_name** manage a Slack user real name.
 
 			This resource directly interacts with the Slack API to fetch user details based on the specified user ID.
 

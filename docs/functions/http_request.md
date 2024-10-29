@@ -9,9 +9,9 @@ description: |-
 # function: http_request
 
 Executes an HTTP request and returns the response body, status code, and the request timestamp.
-
-			You can use the following environment variables to override parameters:
-			- "HTTP_REQ_RETRY_MODE": Enables/disables the "retryClient.RetryMax" mechanism which is enabled by default.
+		
+		Environment variables to override parameters:
+		- "HTTP_REQ_RETRY_MODE": Enables/disables the "retryClient.RetryMax" mechanism, which is enabled by default.
 
 
 

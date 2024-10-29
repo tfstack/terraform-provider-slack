@@ -3,14 +3,14 @@
 page_title: "slack_authtest Data Source - terraform-provider-slack"
 subcategory: ""
 description: |-
-  The `slack_authtest` data source is used to verify that a given Slack API token is valid and can successfully connect to the Slack API.
+  The **slack_authtest** data source is used to verify that a given Slack API token is valid and can successfully connect to the Slack API.
   
   	Using this data source helps ensure that your integration with Slack is set up correctly before making further API calls.
 ---
 
 # slack_authtest (Data Source)
 
-The `slack_authtest` data source is used to verify that a given Slack API token is valid and can successfully connect to the Slack API.
+The **slack_authtest** data source is used to verify that a given Slack API token is valid and can successfully connect to the Slack API.
 
 		Using this data source helps ensure that your integration with Slack is set up correctly before making further API calls.
 
