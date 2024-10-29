@@ -207,7 +207,7 @@ func (d *dataSourceUserGroup) Read(ctx context.Context, req datasource.ReadReque
 func (d *dataSourceUserGroup) Schema(_ context.Context, _ datasource.SchemaRequest, resp *datasource.SchemaResponse) {
 	resp.Schema = schema.Schema{
 		MarkdownDescription: `
-		The ` + "`slack_user_group`" + ` data source retrieves information about a specific user group within Slack. It allows users to fetch details such as user group members and attributes.
+		The **slack_user_group** data source retrieves information about a specific user group within Slack. It allows users to fetch details such as user group members and attributes.
 
 		You can customize the data retrieval by specifying various optional parameters:
 		- **Include users**: Choose whether to include user details within the group.

@@ -3,7 +3,7 @@
 page_title: "slack_user_group_member Resource - terraform-provider-slack"
 subcategory: ""
 description: |-
-  The `slack_user_group_member` resource is used to manage memberships in a Slack user group.
+  The **slack_user_group_member** resource is used to manage memberships in a Slack user group.
   
   		This resource interacts with the Slack API to add or manage users within a specified Slack user group.
   
@@ -11,12 +11,12 @@ description: |-
   
   		**Required API scopes:**
   
-  		- User tokens: `usergroups:write`
+  		- User tokens: usergroups:write
 ---
 
 # slack_user_group_member (Resource)
 
-The `slack_user_group_member` resource is used to manage memberships in a Slack user group.
+The **slack_user_group_member** resource is used to manage memberships in a Slack user group.
 
 			This resource interacts with the Slack API to add or manage users within a specified Slack user group.
 
@@ -24,7 +24,7 @@ The `slack_user_group_member` resource is used to manage memberships in a Slack 
 
 			**Required API scopes:**
 
-			- User tokens: `usergroups:write`
+			- User tokens: usergroups:write
 
 
 

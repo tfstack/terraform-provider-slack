@@ -40,10 +40,10 @@ func (f *HttpRequestFunction) Definition(ctx context.Context, req function.Defin
 	resp.Definition = function.Definition{
 		Summary: "Makes an HTTP request and returns the response body and status code",
 		MarkdownDescription: `
-			Executes an HTTP request and returns the response body, status code, and the request timestamp.
-
-			You can use the following environment variables to override parameters:
-			- "HTTP_REQ_RETRY_MODE": Enables/disables the "retryClient.RetryMax" mechanism which is enabled by default.
+		Executes an HTTP request and returns the response body, status code, and the request timestamp.
+		
+		Environment variables to override parameters:
+		- "HTTP_REQ_RETRY_MODE": Enables/disables the "retryClient.RetryMax" mechanism, which is enabled by default.
 		`,
 
 		Parameters: []function.Parameter{

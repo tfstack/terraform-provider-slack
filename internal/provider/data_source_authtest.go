@@ -43,7 +43,7 @@ func (d *dataSourceAuthtest) Metadata(_ context.Context, req datasource.Metadata
 func (d *dataSourceAuthtest) Schema(ctx context.Context, request datasource.SchemaRequest, response *datasource.SchemaResponse) {
 	response.Schema = schema.Schema{
 		MarkdownDescription: `
-		The ` + "`slack_authtest`" + ` data source is used to verify that a given Slack API token is valid and can successfully connect to the Slack API.
+		The **slack_authtest** data source is used to verify that a given Slack API token is valid and can successfully connect to the Slack API.
 
 		Using this data source helps ensure that your integration with Slack is set up correctly before making further API calls.
 		`,

@@ -147,7 +147,7 @@ func (r *resourceSlackUserStatus) Read(ctx context.Context, req resource.ReadReq
 func (r *resourceSlackUserStatus) Schema(ctx context.Context, req resource.SchemaRequest, resp *resource.SchemaResponse) {
 	resp.Schema = schema.Schema{
 		MarkdownDescription: `
-			The ` + "`slack_user_status`" + ` manage a Slack user status details.
+			The **slack_user_status** manage a Slack user status details.
 
 			This resource directly interacts with the Slack API to fetch user details based on the specified user ID.
 

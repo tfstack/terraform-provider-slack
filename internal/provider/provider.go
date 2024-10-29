@@ -104,7 +104,6 @@ func (p *slackProvider) Configure(ctx context.Context, req provider.ConfigureReq
 
 func (p *slackProvider) Resources(ctx context.Context) []func() resource.Resource {
 	return []func() resource.Resource{
-		// NewUsergroupResource,
 		NewResourceSlackUserGroup,
 		NewResourceSlackUserGroupMember,
 		NewResourceSlackUserRealName,
@@ -114,7 +113,6 @@ func (p *slackProvider) Resources(ctx context.Context) []func() resource.Resourc
 
 func (p *slackProvider) DataSources(ctx context.Context) []func() datasource.DataSource {
 	return []func() datasource.DataSource{
-		// NewDataSourceSlackChannels,
 		NewDataAuthtest,
 		NewdataSourceConversation,
 		NewdataSourceConversations,

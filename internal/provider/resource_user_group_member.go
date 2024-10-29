@@ -282,7 +282,7 @@ func (r *resourceUserGroupMember) Read(ctx context.Context, req resource.ReadReq
 func (r *resourceUserGroupMember) Schema(_ context.Context, _ resource.SchemaRequest, resp *resource.SchemaResponse) {
 	resp.Schema = schema.Schema{
 		MarkdownDescription: `
-			The ` + "`slack_user_group_member`" + ` resource is used to manage memberships in a Slack user group.
+			The **slack_user_group_member** resource is used to manage memberships in a Slack user group.
 
 			This resource interacts with the Slack API to add or manage users within a specified Slack user group.
 
@@ -290,7 +290,7 @@ func (r *resourceUserGroupMember) Schema(_ context.Context, _ resource.SchemaReq
 
 			**Required API scopes:**
 
-			- User tokens: ` + "`usergroups:write`" + `
+			- User tokens: usergroups:write
 		`,
 		Attributes: map[string]schema.Attribute{
 			"usergroup": schema.StringAttribute{
