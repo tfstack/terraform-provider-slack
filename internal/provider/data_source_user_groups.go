@@ -182,7 +182,7 @@ You can customize the data retrieval using several optional parameters, such as 
 **Required scopes**
 
 User tokens: usergroups:read
-		`,
+`,
 		Attributes: map[string]schema.Attribute{
 			"include_count_filter": schema.BoolAttribute{
 				Optional:    true,

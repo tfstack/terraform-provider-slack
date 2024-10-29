@@ -236,7 +236,7 @@ You can customize the data retrieval using optional parameters such as excluding
 **Required scopes**
 
 - User tokens: channels:read, groups:read, im:read, mpim:read
-		`,
+`,
 		Attributes: map[string]schema.Attribute{
 			"exclude_archived": schema.BoolAttribute{
 				MarkdownDescription: "Exclude archived conversations from the list.",
@@ -249,7 +249,7 @@ Maximum number of items to query.
 This limit controls how many items are returned in a single query. Setting a higher limit may increase the response time, while a lower limit can help optimize performance and reduce resource usage.
 
 **Optional:** If not specified, the default limit is 1000.
-				`,
+`,
 				Optional: true,
 			},
 			"types": schema.ListAttribute{
@@ -257,7 +257,7 @@ This limit controls how many items are returned in a single query. Setting a hig
 Types of conversation to include (e.g., 'public_channel', 'private_channel')."
 
 Default: 'public_channel'
-				`,
+`,
 				ElementType: types.StringType,
 				Optional:    true,
 			},

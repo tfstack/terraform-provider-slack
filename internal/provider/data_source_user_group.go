@@ -220,7 +220,7 @@ This flexibility enables targeted queries based on your specific needs.
 **Required scopes**
 
 - User tokens: user groups:read
-		`,
+`,
 		Attributes: map[string]schema.Attribute{
 			"include_count_filter": schema.BoolAttribute{
 				MarkdownDescription: "Include the count of users in each group.",
