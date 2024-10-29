@@ -46,7 +46,7 @@ func (d *dataSourceAuthtest) Schema(ctx context.Context, request datasource.Sche
 The **slack_authtest** data source is used to verify that a given Slack API token is valid and can successfully connect to the Slack API.
 
 Using this data source helps ensure that your integration with Slack is set up correctly before making further API calls.
-		`,
+`,
 		Attributes: map[string]schema.Attribute{
 			"team": schema.StringAttribute{
 				MarkdownDescription: "Team name associated with the Slack API token",

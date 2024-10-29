@@ -291,7 +291,7 @@ This resource interacts with the Slack API to add or manage users within a speci
 **Required API scopes:**
 
 - User tokens: usergroups:write
-		`,
+`,
 		Attributes: map[string]schema.Attribute{
 			"usergroup": schema.StringAttribute{
 				MarkdownDescription: "The identifier or name of the Slack user group to manage membership for.",

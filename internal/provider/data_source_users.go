@@ -46,7 +46,7 @@ You can optionally filter users based on their real name or email address, provi
 **Required scopes**
 
 User tokens: users:read, users:read.email (required to access the email field)
-		`,
+`,
 		Attributes: map[string]schema.Attribute{
 			"email": schema.StringAttribute{
 				Computed:            false,

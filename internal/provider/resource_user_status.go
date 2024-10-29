@@ -154,7 +154,7 @@ This resource directly interacts with the Slack API to fetch user details based 
 **Required scopes**
 
 User tokens: users:read, users.profile:write
-			`,
+`,
 		Attributes: map[string]schema.Attribute{
 			"id": schema.StringAttribute{
 				MarkdownDescription: "The ID of the Slack user.",
