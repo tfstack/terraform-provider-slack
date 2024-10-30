@@ -46,7 +46,7 @@ The Slack provider enables interaction with Slack resources. Configure the provi
 		Attributes: map[string]schema.Attribute{
 			"api_token": schema.StringAttribute{
 				MarkdownDescription: "The Slack Web API token used for authentication",
-				Optional:            true,
+				Required:            true,
 				Sensitive:           true,
 			},
 		},
